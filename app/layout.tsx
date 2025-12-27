@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <div className="container">
             <div className="headerRow">
               <div>
-                <div className="brandTitle">Peer Feedback MVP</div>
+                <div className="brandTitle">Peer Feedback</div>
               </div>
 
               <nav className="nav">

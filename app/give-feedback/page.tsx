@@ -32,7 +32,7 @@ export default function GiveFeedbackPage() {
 
   function submit() {
     if (fromUserId === toUserId) {
-      setMsg("You cannot give feedback to yourself (demo rule).");
+      setMsg("You cannot give feedback to yourself.");
       return;
     }
 
@@ -53,7 +53,7 @@ export default function GiveFeedbackPage() {
 
     saveFeedback(item);
 
-    setMsg("✅ Feedback submitted!");
+    setMsg("Feedback submitted!");
     setComment("");
     // keep ratings as-is so it’s quick to submit multiple
     setTimeout(() => setMsg(""), 2000);

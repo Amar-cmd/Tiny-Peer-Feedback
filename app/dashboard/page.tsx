@@ -136,9 +136,7 @@ export default function DashboardPage() {
           </table>
         </div>
 
-        <div className="p" style={{ marginTop: 12, fontSize: 12 }}>
-          Demo “status” helps show how HR/Prof can spot coaching needs quickly.
-        </div>
+        
       </div>
     </main>
   );
